@@ -10,7 +10,7 @@ export default function Home() {
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://docs.google.com/forms/d/1DAFlecguPxnrKt4OPejJECdMZM-6bXtabTZZsMAhcMA/prefill"
+            href="https://docs.google.com/forms/d/1SgW-TC7r7AYRkNrcClYIP6Eioe5ot3354-3204MgYJM/prefill"
             target="_blank"
             rel="noopener noreferrer"
           >
