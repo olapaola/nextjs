@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sans': 'OpenDyslexic','Arial, Helvetica, sans-serif,Open Sans'
+      'sans': ['OpenDyslexic','Arial', 'Helvetica', 'sans-serif','Open Sans']
     },
     extend: {
       backgroundImage: {
