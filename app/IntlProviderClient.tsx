@@ -5,7 +5,12 @@ import enMessages from './messages/en.json';
 import esMessages from './messages/es.json';
 
 export default function IntlProviderClient({ children }: { children: React.ReactNode }) {
-  // Detecta el idioma del navegador y define el locale
+  // Verifica si estamos en el cliente antes de acceder a navigator.language
+  if (typeof window === "undefined") {
+    return null; // Retorna null si estamos en el servidor
+  }
+
+  // Solo se ejecuta en el cliente
   const locale = navigator.language.startsWith("es") ? "es" : "en";
   const messages = locale === "es" ? esMessages : enMessages;
 
