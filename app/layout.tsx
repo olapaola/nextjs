@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import IntlProviderClient from "./IntlProviderClient";
 
 export const metadata: Metadata = {
   title: "Fundación Acción Neurodivergente",
@@ -12,21 +12,23 @@ export const metadata: Metadata = {
       { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
       { url: "/android-chrome-192x192.png", type: "image/png", sizes: "192x192" },
       { url: "/android-chrome-512x512.png", type: "image/png", sizes: "512x512" },
-  
     ],
     apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
-
   },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <IntlProviderClient>
+          {children}
+        </IntlProviderClient>
+      </body>
     </html>
   );
 }

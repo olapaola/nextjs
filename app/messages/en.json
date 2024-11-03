@@ -1,0 +1,23 @@
+{
+    "survey": {
+      "title": "Neurodivergent Work Survey"
+    },
+    "sections": {
+      "whoWeAre": {
+        "title": "Who We Are",
+        "description": "A team of neurodivergent individuals in Europe and the USA who have united in the Neurodivergent Action Foundation to transform the STEAM work landscape, ensuring equality, understanding, and success for all neurodivergent people"
+      },
+      "vision": {
+        "title": "Vision",
+        "description": "A work environment where neurodivergent individuals are fully valued and have equal opportunities to reach their maximum potential, thus contributing to a more tolerant and productive society."
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "To promote understanding and acceptance of neurodiversity in the workplace. We begin by making visible data from the daily work experiences of neurodivergent people who work or have worked in STEAM"
+      },
+      "contact": {
+        "title": "Contact",
+        "email": "fundacionan@gmail.com"
+      }
+    }
+  }

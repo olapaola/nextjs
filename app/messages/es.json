@@ -1,0 +1,23 @@
+{
+    "survey": {
+      "title": "Cuestionario Neurodivergente Laboral"
+    },
+    "sections": {
+      "whoWeAre": {
+        "title": "Quienes somos",
+        "description": "Un equipo de personas neurodivergentes en Europa y EEUU que se han unido, en la Fundación Acción Neurodivergente, para transformar el panorama laboral en STEAM, asegurando igualdad, comprensión y éxito para todas las personas neurodivergentes"
+      },
+      "vision": {
+        "title": "Visión",
+        "description": "Un mundo laboral donde las personas neurodivergentes sean plenamente valoradas y tengan las mismas oportunidades para alcanzar su máximo potencial, contribuyendo así a una sociedad más tolerante y productiva."
+      },
+      "mission": {
+        "title": "Misión",
+        "description": "Promover el entendimiento y la aceptación de la neurodiversidad en el entorno laboral. Empezamos por visibilizar datos de las experiencias laborales diarias de personas neurodivergentes que trabajan o trabajaron en STEAM"
+      },
+      "contact": {
+        "title": "Contacto",
+        "email": "fundacionan@gmail.com"
+      }
+    }
+  }
